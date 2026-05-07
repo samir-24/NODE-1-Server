@@ -4,6 +4,8 @@ const port = 8000;
 
 const requestHandler = (req, res) => {
 
+    console.log(req.url);
+
     const fs = require('fs');
 
     const path = require('path');
